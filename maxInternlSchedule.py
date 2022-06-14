@@ -1,7 +1,7 @@
 '''
 - Attempt #3 
 
-Approach:
+Last Approach:
 • Sort the intervals by duration (ie: with respect to their end points)
 • Traverse through all intervals, if we get two overlapping intervals, then choose interval with lower end point since,
 to ensure that we don't overlap with any other interval.
